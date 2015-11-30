@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		620861BE1C07CF90001D2216 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 620861BD1C07CF90001D2216 /* main.m */; };
+		620861C11C07CF90001D2216 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 620861C01C07CF90001D2216 /* AppDelegate.m */; };
+		620861C41C07CF90001D2216 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620861C31C07CF90001D2216 /* ViewController.m */; };
+		620861C71C07CF90001D2216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620861C51C07CF90001D2216 /* Main.storyboard */; };
+		620861C91C07CF90001D2216 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620861C81C07CF90001D2216 /* Images.xcassets */; };
+		620861CC1C07CF90001D2216 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 620861CA1C07CF90001D2216 /* LaunchScreen.xib */; };
+		620861D81C07CF90001D2216 /* GrabilyChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 620861D71C07CF90001D2216 /* GrabilyChallengeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		620861D21C07CF90001D2216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 620861B01C07CF90001D2216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620861B71C07CF90001D2216;
+			remoteInfo = GrabilyChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		620861B81C07CF90001D2216 /* GrabilyChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrabilyChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		620861BC1C07CF90001D2216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		620861BD1C07CF90001D2216 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		620861BF1C07CF90001D2216 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		620861C01C07CF90001D2216 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		620861C21C07CF90001D2216 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		620861C31C07CF90001D2216 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		620861C61C07CF90001D2216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		620861C81C07CF90001D2216 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		620861CB1C07CF90001D2216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		620861D11C07CF90001D2216 /* GrabilyChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrabilyChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		620861D61C07CF90001D2216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		620861D71C07CF90001D2216 /* GrabilyChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrabilyChallengeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		620861B51C07CF90001D2216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620861CE1C07CF90001D2216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		620861AF1C07CF90001D2216 = {
+			isa = PBXGroup;
+			children = (
+				620861BA1C07CF90001D2216 /* GrabilyChallenge */,
+				620861D41C07CF90001D2216 /* GrabilyChallengeTests */,
+				620861B91C07CF90001D2216 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		620861B91C07CF90001D2216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				620861B81C07CF90001D2216 /* GrabilyChallenge.app */,
+				620861D11C07CF90001D2216 /* GrabilyChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		620861BA1C07CF90001D2216 /* GrabilyChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				620861BF1C07CF90001D2216 /* AppDelegate.h */,
+				620861C01C07CF90001D2216 /* AppDelegate.m */,
+				620861C21C07CF90001D2216 /* ViewController.h */,
+				620861C31C07CF90001D2216 /* ViewController.m */,
+				620861C51C07CF90001D2216 /* Main.storyboard */,
+				620861C81C07CF90001D2216 /* Images.xcassets */,
+				620861CA1C07CF90001D2216 /* LaunchScreen.xib */,
+				620861BB1C07CF90001D2216 /* Supporting Files */,
+			);
+			path = GrabilyChallenge;
+			sourceTree = "<group>";
+		};
+		620861BB1C07CF90001D2216 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				620861BC1C07CF90001D2216 /* Info.plist */,
+				620861BD1C07CF90001D2216 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		620861D41C07CF90001D2216 /* GrabilyChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				620861D71C07CF90001D2216 /* GrabilyChallengeTests.m */,
+				620861D51C07CF90001D2216 /* Supporting Files */,
+			);
+			path = GrabilyChallengeTests;
+			sourceTree = "<group>";
+		};
+		620861D51C07CF90001D2216 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				620861D61C07CF90001D2216 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		620861B71C07CF90001D2216 /* GrabilyChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 620861DB1C07CF90001D2216 /* Build configuration list for PBXNativeTarget "GrabilyChallenge" */;
+			buildPhases = (
+				620861B41C07CF90001D2216 /* Sources */,
+				620861B51C07CF90001D2216 /* Frameworks */,
+				620861B61C07CF90001D2216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrabilyChallenge;
+			productName = GrabilyChallenge;
+			productReference = 620861B81C07CF90001D2216 /* GrabilyChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		620861D01C07CF90001D2216 /* GrabilyChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 620861DE1C07CF90001D2216 /* Build configuration list for PBXNativeTarget "GrabilyChallengeTests" */;
+			buildPhases = (
+				620861CD1C07CF90001D2216 /* Sources */,
+				620861CE1C07CF90001D2216 /* Frameworks */,
+				620861CF1C07CF90001D2216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				620861D31C07CF90001D2216 /* PBXTargetDependency */,
+			);
+			name = GrabilyChallengeTests;
+			productName = GrabilyChallengeTests;
+			productReference = 620861D11C07CF90001D2216 /* GrabilyChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		620861B01C07CF90001D2216 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ZipDev;
+				TargetAttributes = {
+					620861B71C07CF90001D2216 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					620861D01C07CF90001D2216 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 620861B71C07CF90001D2216;
+					};
+				};
+			};
+			buildConfigurationList = 620861B31C07CF90001D2216 /* Build configuration list for PBXProject "GrabilyChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 620861AF1C07CF90001D2216;
+			productRefGroup = 620861B91C07CF90001D2216 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				620861B71C07CF90001D2216 /* GrabilyChallenge */,
+				620861D01C07CF90001D2216 /* GrabilyChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		620861B61C07CF90001D2216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620861C71C07CF90001D2216 /* Main.storyboard in Resources */,
+				620861CC1C07CF90001D2216 /* LaunchScreen.xib in Resources */,
+				620861C91C07CF90001D2216 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620861CF1C07CF90001D2216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		620861B41C07CF90001D2216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620861C41C07CF90001D2216 /* ViewController.m in Sources */,
+				620861C11C07CF90001D2216 /* AppDelegate.m in Sources */,
+				620861BE1C07CF90001D2216 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		620861CD1C07CF90001D2216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620861D81C07CF90001D2216 /* GrabilyChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		620861D31C07CF90001D2216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 620861B71C07CF90001D2216 /* GrabilyChallenge */;
+			targetProxy = 620861D21C07CF90001D2216 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		620861C51C07CF90001D2216 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				620861C61C07CF90001D2216 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		620861CA1C07CF90001D2216 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				620861CB1C07CF90001D2216 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		620861D91C07CF90001D2216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		620861DA1C07CF90001D2216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		620861DC1C07CF90001D2216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrabilyChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		620861DD1C07CF90001D2216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GrabilyChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		620861DF1C07CF90001D2216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GrabilyChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrabilyChallenge.app/GrabilyChallenge";
+			};
+			name = Debug;
+		};
+		620861E01C07CF90001D2216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GrabilyChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrabilyChallenge.app/GrabilyChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		620861B31C07CF90001D2216 /* Build configuration list for PBXProject "GrabilyChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620861D91C07CF90001D2216 /* Debug */,
+				620861DA1C07CF90001D2216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		620861DB1C07CF90001D2216 /* Build configuration list for PBXNativeTarget "GrabilyChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620861DC1C07CF90001D2216 /* Debug */,
+				620861DD1C07CF90001D2216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		620861DE1C07CF90001D2216 /* Build configuration list for PBXNativeTarget "GrabilyChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620861DF1C07CF90001D2216 /* Debug */,
+				620861E01C07CF90001D2216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 620861B01C07CF90001D2216 /* Project object */;
+}
